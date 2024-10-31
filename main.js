@@ -27,3 +27,26 @@ function round(value, decimals) {
 function randInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
+
+function startgame(){
+
+let playername = prompt("Pleas enter your name");
+
+alert(`welcome, ${playername}, you have enter the Hunted St.Matthew HS!!!`);
+
+let pathchoice == prompt=("Do you want to go into the (1) library or (2) basement?");
+
+if(pathchoice == "1"){
+    library();
+} 
+else if (pathchoice == "2") {
+    basement();
+} 
+else {
+    alert("That's not a valid choice! Please refresh and try again.");
+}
+}
+
+function library() {
+
+}
