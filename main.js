@@ -49,3 +49,18 @@ else {
 function library() {
 
 }
+
+// Setup the menu
+let message = `Hi! Please make a selection:
+1 - Play
+2 - Options
+3 - DLC
+4 - Check for Updates
+5 - Exit
+`
+// Prompt with the menu
+let selection = Number(prompt(msg));
+
+function start(){
+    
+}
