@@ -63,5 +63,38 @@ let message = `Hi! Please make a selection:
 let selection = Number(prompt(msg));
 
 function start(){
-    
+document.getElementById("message").innerHTML="message";
+}
+
+function average(0) {
+ let avg = o;
+ let count =1;
+ while (count <= n){
+  avg = avg + number (prompt (`please enter value ${count}/${n}`));
+  count++;  
+ }
+ avg = round(avg/n,1);
+ console.log(`the average is ${avg}`);
+}
+
+function random_until(min, max, stop) {
+    //check that max is greater than min. If not, return -1;
+    if(max <= min){
+        return -1;
+    }
+    //check that stop is between (or equal to) min and max. If not, return -1;
+    if(stop < min || stop > max || max <= min){
+        return -1;
+    }
+    //generate the first random number
+    let rnd = randInt(min,max);
+
+    while(rnd != stop) {
+        console.log(rnd);
+        rnd = randInt(min,max);
+
+        return stop(){
+
+        }
+    }
 }
