@@ -28,18 +28,20 @@ function randInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function startgame(){
 
+
+function startgame(){
 let playername = prompt("Pleas enter your name");
 
 alert(`welcome, ${playername}, you have enter the Hunted St.Matthew HS!!!`);
 
-let pathchoice == prompt=("Do you want to go into the (1) library or (2) basement?");
+let pathchoice = prompt("Do you want to go into the 1 library or 2 basement?");
 
 if(pathchoice == "1"){
     library();
+
 } 
-else if (pathchoice == "2") {
+else  if (pathchoice == "2") {
     basement();
 } 
 else {
@@ -47,9 +49,24 @@ else {
 }
 }
 
-function library() {
+function library(){
+    alert(`you have been eaten by a giants spider game over!!!!`);
 
 }
+
+function basement(){
+    let choice = prompt("you have enter a dark spooky basement and there a 2 door one say 1 death the other one says 2 exit pick one")
+    if(choice == "1"){
+        
+    }
+}
+
+
+
+
+
+
+
 
 // Setup the menu
 let message = `Hi! Please make a selection:
@@ -60,13 +77,10 @@ let message = `Hi! Please make a selection:
 5 - Exit
 `
 // Prompt with the menu
-let selection = Number(prompt(msg));
+let selection = Number(prompt());
 
-function start(){
-document.getElementById("message").innerHTML="message";
-}
 
-function average(0) {
+function average() {
  let avg = o;
  let count =1;
  while (count <= n){
@@ -76,6 +90,7 @@ function average(0) {
  avg = round(avg/n,1);
  console.log(`the average is ${avg}`);
 }
+ 
 
 function random_until(min, max, stop) {
     //check that max is greater than min. If not, return -1;
@@ -93,8 +108,8 @@ function random_until(min, max, stop) {
         console.log(rnd);
         rnd = randInt(min,max);
 
-        return stop(){
-
-        }
     }
 }
+
+
+
